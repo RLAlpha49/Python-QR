@@ -4,6 +4,8 @@ This is a small project I thought of to try out Streamlit.
 
 Python-QR is a QR code generator built with Python, Streamlit, and the qrcode library.
 
+Demo: [Python-QR](https://python-qr.streamlit.app)
+
 ## Features
 
 - Generate QR codes with custom data
