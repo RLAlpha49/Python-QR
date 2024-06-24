@@ -9,10 +9,7 @@ on:
 
 jobs:
   auto-merge:
-    permissions:
-      pull-requests: write
-      issues: write
-      repository-projects: write
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Merge me!
