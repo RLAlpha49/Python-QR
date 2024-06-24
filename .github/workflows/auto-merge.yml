@@ -9,11 +9,10 @@ on:
 
 jobs:
   auto-merge:
-    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Merge me!
         uses: ridedott/merge-me-action@v2
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
           PRESET: DEPENDABOT
