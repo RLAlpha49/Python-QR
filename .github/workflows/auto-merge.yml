@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check token
-        run: echo "Token: ${${{ secrets.PAT }}:0:4}"
+        run: |
+          echo "Token is set: ${{ secrets.PAT != '' }}"
       - name: Merge me!
         uses: ridedott/merge-me-action@v2
         with:
