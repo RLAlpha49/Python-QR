@@ -16,7 +16,7 @@ qrcode = "^7.4.2"
 types-requests = "*"
 isort = "^5.13.2"
 black = "^24.4.2"
-pylint = "^3.2.4"
+pylint = "^3.2.5"
 mypy = "^1.10.1"
 flake8 = "^7.1.0"
 
