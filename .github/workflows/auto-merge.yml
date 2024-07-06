@@ -1,21 +1,15 @@
 name: Auto merge Dependabot PRs
 
 on:
-  pull_request_target:
+  workflow_run:
     types:
-      - opened
-      - synchronize
-      - ready_for_review
+      - completed
 
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Check token
-        run: |
-          echo "Token is set: ${{ secrets.PAT != '' }}"
       - name: Merge me!
         uses: ridedott/merge-me-action@v2
         with:
           GITHUB_TOKEN: ${{ secrets.PAT }}
-          PRESET: DEPENDABOT
