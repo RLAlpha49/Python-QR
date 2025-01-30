@@ -14,7 +14,7 @@ qrcode = "^8.0"
 
 [tool.poetry.dev-dependencies]
 types-requests = "*"
-isort = "^5.13.2"
+isort = "^6.0.0"
 black = "^25.1.0"
 pylint = "^3.3.4"
 mypy = "^1.14.1"
