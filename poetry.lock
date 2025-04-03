@@ -992,14 +992,14 @@ files = [
 
 [[package]]
 name = "qrcode"
-version = "8.0"
+version = "8.1"
 description = "QR Code image generator"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "qrcode-8.0-py3-none-any.whl", hash = "sha256:9fc05f03305ad27a709eb742cf3097fa19e6f6f93bb9e2f039c0979190f6f1b1"},
-    {file = "qrcode-8.0.tar.gz", hash = "sha256:025ce2b150f7fe4296d116ee9bad455a6643ab4f6e7dce541613a4758cbce347"},
+    {file = "qrcode-8.1-py3-none-any.whl", hash = "sha256:9beba317d793ab8b3838c52af72e603b8ad2599c4e9bbd5c3da37c7dcc13c5cf"},
+    {file = "qrcode-8.1.tar.gz", hash = "sha256:e8df73caf72c3bace3e93d9fa0af5aa78267d4f3f5bc7ab1b208f271605a5e48"},
 ]
 
 [package.dependencies]
@@ -1405,4 +1405,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9.8"
-content-hash = "bb296a043ab90323391756935a558092006add0dac31e0064e3409f033a96899"
+content-hash = "1a34e6174818df25ec341302e46de9af931e3ec2d0a1bd4100fd8e94413f58d3"

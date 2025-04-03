@@ -10,7 +10,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.9.8"
 streamlit = "^1.44.1"
-qrcode = "^8.0"
+qrcode = "^8.1"
 
 [tool.poetry.dev-dependencies]
 types-requests = "*"
